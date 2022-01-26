@@ -6,8 +6,7 @@ class Main {
         int n=sc.nextInt();// Количество строк первой матрицы
         int m=sc.nextInt();
         // Количество столбцов в первой матрице и количество строк во второй матрице
-        int k=sc.nextInt();// Количество столбцов во второй матрице
-        int Maze[][]=new int[n][m];
+        int k=sc.nextInt();// Количество столбцов во второй матрицы
         int Maze1[][]=new int[m][k];
         int Maze2[][]=new int[n][k];
         for(int i=0;i<n;i++)// Вводим данные первой матрицы
